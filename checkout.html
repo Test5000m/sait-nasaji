@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>ثبت سفارش | نساجی بزرگمهر</title>
+
+  <meta
+    name="description"
+    content="ثبت سفارش نمایشی در نساجی بزرگمهر."
+  >
+
+  <link rel="icon" href="assets/images/logo/favicon.svg">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+<div id="site-header"></div>
+
+<main>
+
+  <section class="page-head">
+
+    <div class="container">
+
+      <span class="eyebrow">
+        مرحله نهایی
+      </span>
+
+      <h1>
+        ثبت سفارش
+      </h1>
+
+      <p class="muted">
+        این بخش فعلاً بدون پرداخت آنلاین و به صورت نمایشی کار می‌کند.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <section class="section">
+
+    <div class="container checkout-layout">
+
+      <section>
+
+        <form id="checkout-form">
+
+          <div class="form-grid">
+
+            <div>
+              <label for="first-name">
+                نام و نام خانوادگی
+              </label>
+
+              <input
+                id="first-name"
+                name="name"
+                class="input"
+                required
+                placeholder="نام و نام خانوادگی"
+              >
+            </div>
+
+
+            <div>
+              <label for="phone">
+                شماره تماس
+              </label>
+
+              <input
+                id="phone"
+                name="phone"
+                class="input"
+                required
+                type="tel"
+                placeholder="شماره تماس"
+              >
+            </div>
+
+
+            <div class="full">
+
+              <label for="address">
+                آدرس
+              </label>
+
+              <textarea
+                id="address"
+                name="address"
+                class="textarea"
+                rows="4"
+                required
+                placeholder="آدرس کامل"
+              ></textarea>
+
+            </div>
+
+
+            <div class="full">
+
+              <label for="note">
+                توضیحات سفارش
+              </label>
+
+              <textarea
+                id="note"
+                name="note"
+                class="textarea"
+                rows="4"
+                placeholder="توضیحات تکمیلی"
+              ></textarea>
+
+            </div>
+
+          </div>
+
+
+          <button
+            type="submit"
+            class="btn"
+          >
+            ثبت سفارش نمایشی
+          </button>
+
+        </form>
+
+        <div id="checkout-result"></div>
+
+      </section>
+
+
+      <aside>
+
+        <div
+          id="checkout-summary"
+          class="summary"
+        >
+        </div>
+
+      </aside>
+
+    </div>
+
+  </section>
+
+</main>
+
+<div id="site-footer"></div>
+
+<div id="toast-container"></div>
+
+<script src="js/config.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/wishlist.js"></script>
+<script src="js/products.js"></script>
+<script src="js/checkout.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
