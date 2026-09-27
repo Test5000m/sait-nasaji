@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>فروشگاه پارچه | نساجی بزرگمهر</title>
+
+  <meta
+    name="description"
+    content="مشاهده محصولات نساجی بزرگمهر و جستجو و فیلتر پارچه‌ها."
+  >
+
+  <link rel="icon" href="assets/images/logo/favicon.svg">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+<div id="site-header"></div>
+
+<main>
+
+  <section class="page-head">
+
+    <div class="container">
+
+      <span class="eyebrow">
+        نساجی بزرگمهر
+      </span>
+
+      <h1>
+        فروشگاه پارچه
+      </h1>
+
+      <p class="muted">
+        محصولات را جستجو، فیلتر و مرتب کنید.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <section class="section">
+
+    <div class="container">
+
+      <div class="shop-layout">
+
+        <!-- Filters -->
+
+        <aside class="filters">
+
+          <h3>
+            فیلتر محصولات
+          </h3>
+
+          <div class="filter-group">
+
+            <label for="shop-search">
+              جستجو
+            </label>
+
+            <input
+              id="shop-search"
+              class="input"
+              type="search"
+              placeholder="نام، دسته‌بندی، جنس یا رنگ..."
+            >
+
+          </div>
+
+
+          <div class="filter-group">
+
+            <label for="category-filter">
+              دسته‌بندی
+            </label>
+
+            <select
+              id="category-filter"
+              class="select"
+            >
+              <option value="">
+                همه دسته‌بندی‌ها
+              </option>
+            </select>
+
+          </div>
+
+
+          <div class="filter-group">
+
+            <label for="min-price">
+              حداقل قیمت
+            </label>
+
+            <input
+              id="min-price"
+              class="input"
+              type="number"
+              min="0"
+              placeholder="حداقل"
+            >
+
+            <label for="max-price">
+              حداکثر قیمت
+            </label>
+
+            <input
+              id="max-price"
+              class="input"
+              type="number"
+              min="0"
+              placeholder="حداکثر"
+            >
+
+          </div>
+
+
+          <div class="filter-group">
+
+            <label>
+              وضعیت
+            </label>
+
+            <label>
+              <input
+                type="radio"
+                name="stock-filter"
+                value=""
+                checked
+              >
+              همه
+            </label>
+
+            <label>
+              <input
+                type="radio"
+                name="stock-filter"
+                value="in"
+              >
+              موجود
+            </label>
+
+            <label>
+              <input
+                type="radio"
+                name="stock-filter"
+                value="out"
+              >
+              ناموجود
+            </label>
+
+          </div>
+
+        </aside>
+
+
+        <!-- Products -->
+
+        <section>
+
+          <div class="toolbar">
+
+            <select
+              id="sort-products"
+              class="select sort-select"
+            >
+              <option value="default">
+                مرتب‌سازی پیش‌فرض
+              </option>
+
+              <option value="price-asc">
+                قیمت: کم به زیاد
+              </option>
+
+              <option value="price-desc">
+                قیمت: زیاد به کم
+              </option>
+
+              <option value="newest">
+                جدیدترین
+              </option>
+
+              <option value="popular">
+                محبوب‌ترین
+              </option>
+            </select>
+
+            <span
+              id="products-count"
+              class="results-count"
+            >
+              ۰ محصول
+            </span>
+
+          </div>
+
+
+          <div
+            id="shop-products"
+            class="products"
+          >
+          </div>
+
+
+          <div
+            id="pagination"
+            class="pagination"
+          >
+          </div>
+
+        </section>
+
+      </div>
+
+    </div>
+
+  </section>
+
+</main>
+
+<div id="site-footer"></div>
+
+<div id="toast-container"></div>
+
+<script src="js/config.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/wishlist.js"></script>
+<script src="js/products.js"></script>
+<script src="js/search.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
