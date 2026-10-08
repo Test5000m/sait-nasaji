@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "محصول نساجی بزرگمهر ۱",
+    "category": "پارچه",
+    "price": 0,
+    "oldPrice": 0,
+    "discount": 0,
+    "description": "",
+    "material": "",
+    "color": "",
+    "width": "",
+    "usage": "",
+    "stock": 1,
+    "rating": 0,
+    "images": [
+      "assets/images/products/fabric-shop-1.jpg"
+    ],
+    "featured": true,
+    "newProduct": false
+  },
+  {
+    "id": 2,
+    "name": "محصول نساجی بزرگمهر ۲",
+    "category": "پارچه",
+    "price": 0,
+    "oldPrice": 0,
+    "discount": 0,
+    "description": "",
+    "material": "",
+    "color": "",
+    "width": "",
+    "usage": "",
+    "stock": 1,
+    "rating": 0,
+    "images": [
+      "assets/images/products/fabric-shop-2.jpg"
+    ],
+    "featured": true,
+    "newProduct": false
+  }
+]
